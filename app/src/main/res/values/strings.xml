@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EtanolGasolina</string>
+    <string name="v_gasolina">Valor da Gasolina</string>
+    <string name="v_etanol">Valor do Etanol</string>
+    <string name="comp_gasolina">Compensa mais abastecer com Gasolina</string>
+    <string name="comp_etanol">Compensa mais abastecer com Etanol</string>
+    <string name="b_comparar">Comparar</string>
+</resources>
