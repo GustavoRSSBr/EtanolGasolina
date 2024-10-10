@@ -1,3 +1,8 @@
+/*
+ *@author: Gustavo Rodrigues Santos Silva
+ RA: 1110481922011
+ */
+
 package br.com.gustavorssbr.etanolgasolina;
 
 import android.os.Bundle;
@@ -15,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etValorGasolina;
     private EditText etvalorEtanol;
-    private Button btComparar;
     private TextView tvValor;
 
     @Override
@@ -32,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         etValorGasolina = findViewById(R.id.etValorGasolina);
         etvalorEtanol = findViewById(R.id.etValorEtanol);
-        btComparar = findViewById(R.id.btComparar);
+        Button btComparar = findViewById(R.id.btComparar);
         tvValor = findViewById(R.id.tvValor);
 
         btComparar.setOnClickListener(op -> calcular());
